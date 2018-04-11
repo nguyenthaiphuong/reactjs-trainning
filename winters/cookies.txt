@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.xgio.net	TRUE	/	FALSE	1999999999	__cfduid	d48fd78a9fafa161da3acd048a40a5cc51522836008
+
