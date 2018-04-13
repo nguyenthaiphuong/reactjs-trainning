@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 
 export default class Nav extends Component {
   render() {
@@ -14,7 +13,7 @@ export default class Nav extends Component {
         <div className="close-menu"></div>
         <ul className="navlist">
           <li className="menu-item-has-children">
-            <Link to="/">Home</Link>
+            <a href="#">Home</a>
             <ul className="sub-menu">
               <li className="menu-item-has-children">
                 <a href="grid.html">Grid</a>
@@ -50,7 +49,7 @@ export default class Nav extends Component {
               </li>
             </ul>
           </li>
-          <li className="current-menu-item"><Link to="/about">About</Link></li>
+          <li className="current-menu-item"><a href="#">About</a></li>
           <li><a href="category.html">Category</a></li>
           <li><a href="category.html">Restaurant</a></li>
           <li className="megamenu col-5 menu-item-has-children">
@@ -134,7 +133,7 @@ export default class Nav extends Component {
             </ul>
           </li>
           <li><a href="single.html">Single</a></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><a href="#">Contact</a></li>
         </ul>
         <div className="search-box">
           <span className="icon-search">

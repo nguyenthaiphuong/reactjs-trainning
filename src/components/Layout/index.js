@@ -1,10 +1,7 @@
-import Header from './Partials/Header';
-import Footer from './Partials/Footer';
-import Sidebar from './Partials/Sidebar'
-import MasterLayout from './Master/MasterLayout';
+import MasterLayout from './MasterLayout';
+import BlogLayout from './BlogLayout';
 
 export {
   MasterLayout,
-  Header,
-  Footer
+  BlogLayout
 };
