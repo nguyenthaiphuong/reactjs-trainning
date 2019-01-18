@@ -4,7 +4,7 @@
 
 ### Info
 * The project using ReactJS
-* Author: Ngo Anh Viet - mr.nav90@gmail.com
+* Author: Phuong Nguyen
 
 ### Install project
 * Install Nodejs & npm
